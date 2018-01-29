@@ -1,5 +1,5 @@
-import CoreFactory from 'jslizer';
+import './../node_modules/jslizer/dist/jslizer.js';
+//import jslizer from 'jslizer';
+//new CoreFactory();
 
-new CoreFactory();
-
-console.log(77, CoreFactory.objectHelper.isNull(null));
+console.log(78, CoreFactory);

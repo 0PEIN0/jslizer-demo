@@ -9,10 +9,10 @@ const distDir = path.resolve(__dirname, 'dist')
 module.exports = {
     entry: './src/index.js',
     output: {
-        filename: 'jslizer.js',
+        filename: 'index.js',
         path: distDir,
         publicPath: '/',
-        sourceMapFilename: 'jslizer.map'
+        sourceMapFilename: 'index.map'
     },
     devServer: {
         contentBase: srcDir,
