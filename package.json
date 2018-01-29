@@ -14,13 +14,13 @@
   "scripts": {
     "clean": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --colors",
+    "start": "webpack-dev-server --progress --colors --watch",
     "build": "npm run clean && webpack",
-    "watch": " ./node_modules/webpack/bin/webpack.js --watch"
+    "watch": " ./node_modules/webpack/bin/webpack.js --progress --colors --watch"
   },
   "devDependencies": {
     "html-webpack-plugin": "*",
-    "jslizer": "^1.0.3",
+    "jslizer": "^1.0.8",
     "webpack": "*",
     "webpack-dev-server": "*"
   },
