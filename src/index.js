@@ -4,4 +4,4 @@ import {
 
 new CoreFactory();
 
-console.log(78, CoreFactory.objectHelper.isNull(null));
+console.log(78, CoreFactory.systemSettings);
