@@ -1,7 +1,3 @@
-import {
-    CoreFactory
-} from 'jslizer/dist/jslizer';
+import jslizer from 'jslizer';
 
-new CoreFactory();
-
-console.log(78, CoreFactory.systemSettings);
+console.log(343, jslizer);

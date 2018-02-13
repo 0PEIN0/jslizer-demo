@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "html-webpack-plugin": "*",
-    "jslizer": "^1.0.17",
+    "jslizer": "^1.0.21",
     "webpack": "*",
     "webpack-dev-server": "*"
   },
