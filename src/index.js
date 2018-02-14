@@ -1,6 +1,7 @@
 import jslizer from 'jslizer';
 
 console.log(342, jslizer);
+new jslizer.CoreFactory();
 
 class Test extends jslizer.BaseController {
     constructor() {
@@ -9,4 +10,4 @@ class Test extends jslizer.BaseController {
     }
 }
 var a = new Test();
-console.log(343, a);
+console.log(343, a.callSave());
